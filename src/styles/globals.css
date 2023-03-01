@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply h-full bg-[#0D0905];
+}
+
+body {
+    @apply h-full;
+}
+
+#__next {
+    @apply flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/static/Montserrat-Bold.ttf");
+  }
